@@ -1,8 +1,8 @@
 # README
 
 ##usersテーブル
-|     Column      | Type |      Option                             |
-| --------------- | ------ | ------------------------------------- |
+|     Column      |   Type |      Option                           |
+| --------------- | :------ :| -------------------------------------: |
 |     name        | string | null: false,index: true,unique: true  |
 |     email       | string | null:false                            |
 |password_dogest  | string |                                       |
