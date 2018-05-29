@@ -3,14 +3,14 @@
 ##usersテーブル
 |Column|Type|Option|
 |------|----|------|
-| name        | string | null: false,index: true,unique: true  |
-| email       | string | null:false                            |
-|password_dogest  | string |                                       |
+|name|string |null: false,index: true,unique: true|
+|email|string|null:false|
+|password_dogest|string||
 
 ###association
-has_many :questions
-has_many :answers
-has_many :user_relationships
+- has_many :questions
+- has_many :answers
+- has_many :user_relationships
 
 
 
@@ -22,8 +22,8 @@ has_many :user_relationships
 |    user_id    |integer|null: false,foreign_key: true        |
 
 ###associacion
-belongs_to :user
-has_many :answers
+- belongs_to :user
+- has_many :answers
 
 
 
@@ -35,7 +35,7 @@ has_many :answers
 |   question_id |integer|null: false,foreign_key: true        |
 
 ###association
-belongs_to :question
+- belongs_to :question
 
 
 
@@ -46,5 +46,5 @@ belongs_to :question
 |   followed_id |integer |null: false,foreign_key: true        |
 
 ###association
-belongs_to :user
+- belongs_to :user
 
