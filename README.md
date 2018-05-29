@@ -5,7 +5,7 @@
 |------|----|------|
 |name|string |null: false,index: true,unique: true|
 |email|string|null:false|
-|password_dogest|string||
+|password_dogest|string|none|
 
 ###association
 - has_many :questions
