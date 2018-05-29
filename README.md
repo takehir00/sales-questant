@@ -1,6 +1,7 @@
 # README
 
 ##usersテーブル
+
 |Column|Type|Option|
 |------|----|------|
 |name|string |null: false,index: true,unique: true|
@@ -16,6 +17,7 @@
 
 
 ##questionsテーブル
+
 |     Column    | Type  |      Option                         |
 |---------------|-------|-------------------------------------|
 |     body      | text  |null: false                          |
@@ -28,6 +30,7 @@
 
 
 ##answersテーブル
+
 |     Column    | Type  |      Option                         |
 |---------------|-------|-------------------------------------|
 |     body      | text  |null: false                          |
@@ -40,6 +43,7 @@
 
 
 ##user_relationshipsテーブル
+
 |     Column    | Type   |      Option                         |
 |---------------|--------|-------------------------------------|
 |   follower_id | integer|null: false ,foreign_key: true       |
