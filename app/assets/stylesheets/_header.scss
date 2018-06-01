@@ -1,0 +1,33 @@
+.header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color:#990000;
+  h1{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    font-style: oblique;
+    float: left;
+  }
+  p{
+    color: white;
+    font-size:15px;
+    font-style: oblique;
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+  }
+  ul{
+    float:right;
+    li{
+    float: left;
+    color: white;
+    font-size:15px;
+    font-style: oblique;
+    line-height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  }
+}
