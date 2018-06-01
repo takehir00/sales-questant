@@ -1,0 +1,50 @@
+.content {
+ width: 60vw;
+ height: 1200px;
+ margin-top: 70px;
+ float: left;
+ .content__upper{
+  height: 900px;
+  border:dotted 2px black;
+  h2{
+    color: white;
+    background-color: #daa520;
+  }
+  .content__upper__post{
+    margin-top: 30px;
+
+    .content__upper__post__image{
+      height: 60px;
+      width: 50px;
+      float:left;
+    }
+    .content__upper__post__question{
+      float:left;
+    }
+    .content__upper__post__category{
+      clear: both;
+    }
+  }
+ }
+ .content__bottom{
+  height: 250px;
+  margin-top: 30px;
+  border:dotted 2px black;
+  h2{
+    color: white;
+    background-color: #daa520;
+  }
+ .content__bottom__style{
+  float: left;
+ }
+ .content__bottom__type{
+  float:left;
+  margin-left: 50px;
+ }
+ .content__bottom__carrier{
+  clear: both;
+ }
+ }
+
+
+}

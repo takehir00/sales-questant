@@ -1,0 +1,16 @@
+.side-bar{
+  width: 15vw;
+  height: 73vh;
+  margin-top: 70px;
+  margin-left: 3vw;
+  float:left;
+  .side-bar__upper{
+    height: 35vh;
+    border: solid 2px black;
+  }
+  .side-bar__bottom{
+    height: 35vh;
+    margin-top: 3vh;
+    border: solid 2px black;
+  }
+}
