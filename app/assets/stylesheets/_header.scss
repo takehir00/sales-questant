@@ -22,12 +22,15 @@
     float:right;
     li{
     float: left;
-    color: white;
-    font-size:15px;
-    font-style: oblique;
     line-height: 50px;
     padding-left: 30px;
     padding-right: 40px;
+    .link{
+    color: white;
+    font-size:15px;
+    font-style: oblique;
+    text-decoration: none;
+    }
   }
   }
 }
