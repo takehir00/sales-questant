@@ -1,21 +1,3 @@
-.header
-  %h1
-    sales Q
-  %p ~営業のお悩み質問箱~
-  - if user_signed_in?
-    %ul
-      %li
-        = link_to "質問を投稿する", "", class: "link"
-      %li
-        = link_to "マイページ", "", class: "link"
-      %li
-        = link_to "サインアウト", destroy_user_session_path, method: :delete, class: "link"
-  - else
-    %ul
-      %li
-        = link_to "ログイン", new_user_session_path, method: :get, class: "link"
-      %li
-        = link_to "サインアップ", new_user_registration_path, method: :get, class: "link"
 .wrapper
 
   .content
@@ -80,12 +62,5 @@
       %p 広告
     .side-bar__bottom
       %p 広告
-.fotter
-  %h2.fotter__left sales Q
 
-  %ul.fotter__mid
-    %li
-      お問い合わせ
-    %li
-      salesQについて
 

@@ -1,0 +1,33 @@
+//questions#new
+.wrapper-question{
+  height: 80vh;
+  .question-form{
+    width: 70vw;
+    height: 67vh;
+    border:dotted 2px black;;
+    margin: 0 auto;
+    position: relative;
+    top: 10vh;
+    .question-form__title{
+     font-size:30px;
+     font-weight: bold;
+     font-style: oblique;
+     text-align: center;
+     padding-top: 20px;
+    }
+    .question-form__body{
+      width: 50vw;
+      height: 30vh;
+      border: solid 2px black;
+      margin: 0 auto;
+    }
+    .question-form__btn{
+      width: 15vw;
+      height: 5vh;
+      border: solid 2px white;
+      background-color: #daa520;
+      margin: 0 auto;
+      margin-top: 5vh;
+    }
+  }
+}
