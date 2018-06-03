@@ -14,7 +14,7 @@
 
     .header
       %h1
-        sales Q
+        = link_to "sales Q", root_path, class: "h1__link"
       %p ~営業のお悩み質問箱~
       - if user_signed_in?
         %ul
