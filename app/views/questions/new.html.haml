@@ -1,7 +1,8 @@
 .wrapper-question
   .question-form
-    %h1.question-form__title
-      Question
-    .question-form__body
+    = form_for(@question) do |f|
+      %h1.question-form__title
+        Question
+        = f.text_area :body, placeholder: "ここに質問を入力してください", class: "question-form__body"
 
-    .question-form__btn
+        = f.submit "質問する", class: "question-form__btn"

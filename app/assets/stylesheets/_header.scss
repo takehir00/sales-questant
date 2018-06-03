@@ -4,11 +4,14 @@
   position: fixed;
   background-color:#990000;
   h1{
-    color: white;
-    font-size:30px;
-    font-weight: bold;
-    font-style: oblique;
     float: left;
+    .h1__link{
+      color: white;
+      font-size:30px;
+      font-weight: bold;
+      font-style: oblique;
+      text-decoration: none;
+    }
   }
   p{
     color: white;
