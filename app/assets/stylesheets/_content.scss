@@ -6,23 +6,28 @@
  .content__upper{
   height: 900px;
   border:dotted 2px black;
+  overflow: scroll;
   h2{
     color: white;
     background-color: #daa520;
   }
   .content__upper__post{
-    margin-top: 30px;
-
-    .content__upper__post__image{
-      height: 60px;
-      width: 50px;
-      float:left;
+    margin: 20px 15px 0 15px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    .content__upper__post__name{
+      width: 10vw;
+      border-bottom: solid 2px #daa520;
+      margin-left: 10px;
     }
     .content__upper__post__question{
-      float:left;
+      background-color: #FFFFFF;
+      margin: 10px 10px;
+      border-radius: 5px;
     }
     .content__upper__post__category{
-      clear: both;
+      color: #daa520;
+      margin-left: 10px;
     }
   }
  }

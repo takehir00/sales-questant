@@ -3,27 +3,27 @@
   width: 100%;
   position: fixed;
   background-color:#990000;
-  h1{
-    float: left;
-    .h1__link{
-      color: white;
-      font-size:30px;
-      font-weight: bold;
-      font-style: oblique;
-      text-decoration: none;
-    }
-  }
-  p{
+h1{
+  float: left;
+  .h1__link{
     color: white;
-    font-size:15px;
+    font-size:30px;
+    font-weight: bold;
     font-style: oblique;
-    float: left;
-    line-height: 50px;
-    padding-left: 10px;
+    text-decoration: none;
   }
-  ul{
-    float:right;
-    li{
+}
+p{
+  color: white;
+  font-size:15px;
+  font-style: oblique;
+  float: left;
+  line-height: 50px;
+  padding-left: 10px;
+}
+ul{
+  float:right;
+  li{
     float: left;
     line-height: 50px;
     padding-left: 30px;
@@ -35,5 +35,7 @@
     text-decoration: none;
     }
   }
-  }
 }
+}
+
+

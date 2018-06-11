@@ -11,25 +11,25 @@
       = notice
     %p.alert
       = alert
-
-    .header
-      %h1
-        = link_to "sales Q", root_path, class: "h1__link"
-      %p ~営業のお悩み質問箱~
-      - if user_signed_in?
-        %ul
-          %li
-            = link_to "質問を投稿する", new_question_path, class: "link"
-          %li
-            = link_to "マイページ", "", class: "link"
-          %li
-            = link_to "サインアウト", destroy_user_session_path, method: :delete, class: "link"
-      - else
-        %ul
-          %li
-            = link_to "ログイン", new_user_session_path, method: :get, class: "link"
-          %li
-            = link_to "サインアップ", new_user_registration_path, method: :get, class: "link"
+    .header__wrapper.clearfix
+      .header
+        %h1
+          = link_to "sales Q", root_path, class: "h1__link"
+        %p ~営業のお悩み質問箱~
+        - if user_signed_in?
+          %ul
+            %li
+              = link_to "質問を投稿する", new_question_path, class: "link"
+            %li
+              = link_to "マイページ", "", class: "link"
+            %li
+              = link_to "サインアウト", destroy_user_session_path, method: :delete, class: "link"
+        - else
+          %ul
+            %li
+              = link_to "ログイン", new_user_session_path, method: :get, class: "link"
+            %li
+              = link_to "サインアップ", new_user_registration_path, method: :get, class: "link"
 
     = yield
 

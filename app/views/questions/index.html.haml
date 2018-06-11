@@ -5,34 +5,7 @@
     .content__upper
       %h2
         新着投稿
-      .content__upper__post
-        = image_tag("おじさん.jpeg", class: "content__upper__post__image")
-        %p.content__upper__post__question
-          テレアポでアポイントが取れません。どうすればいいですか
-        %P.content__upper__post__category
-          人材業界
-
-      .content__upper__post
-        = image_tag("おじさん.jpeg", class: "content__upper__post__image")
-        %p.content__upper__post__question
-          テレアポでアポイントが取れません。どうすればいいですか
-        %P.content__upper__post__category
-          人材業界
-
-      .content__upper__post
-        = image_tag("おじさん.jpeg", class: "content__upper__post__image")
-        %p.content__upper__post__question
-          テレアポでアポイントが取れません。どうすればいいですか
-        %P.content__upper__post__category
-          人材業界
-
-      .content__upper__post
-        = image_tag("おじさん.jpeg", class: "content__upper__post__image")
-        %p.content__upper__post__question
-          テレアポでアポイントが取れません。どうすればいいですか
-        %P.content__upper__post__category
-          人材業界
-
+      = render partial: 'question', collection: @questions
 
     .content__bottom
       %h2

@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
   def index
+    @questions = Question.order("created_at DESC").limit(15)
   end
 
   def new
@@ -11,6 +12,7 @@ class QuestionsController < ApplicationController
 
   def create
     Question.create(question_params)
+    redirect_to root_path
   end
 
   def edit
